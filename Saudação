@@ -1,6 +1,3 @@
-Aqui está o código com as mensagens em português:
-
-```javascript
 console.log("Olá!");
 console.log("Estou animado para conversar com você.");
 
@@ -33,4 +30,3 @@ const favoriteSubjectSentence = "Minha matéria favorita é " + favoriteSubject 
 console.log(favoriteSubjectSentence);
 
 console.log("Bom, foi bom conversar com você. Tenha um ótimo dia!");
-```
