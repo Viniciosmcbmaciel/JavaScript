@@ -1,1 +1,36 @@
-# JavaScript
+Aqui está o código com as mensagens em português:
+
+```javascript
+console.log("Olá!");
+console.log("Estou animado para conversar com você.");
+
+let bot;
+bot = "professorBot";
+
+let botLocation = "o universo";
+
+console.log("Permita-me me apresentar.");
+
+const botIntroduction = "Meu nome é " + bot + ".";
+console.log(botIntroduction);
+
+const botLocationSentence = "Eu moro em " + botLocation + ".";
+console.log(botLocationSentence);
+
+bot = "professorBot";
+
+const nicknameIntroduction = "Meu apelido é " + bot + ".";
+console.log(nicknameIntroduction);
+
+bot = "incrivelProfessorBot";
+
+const newNicknameGreeting = "Eu amo meu apelido, mas gostaria que as pessoas me chamassem de " + bot + ".";
+console.log(newNicknameGreeting);
+
+const favoriteSubject = "Ciência da Computação";
+
+const favoriteSubjectSentence = "Minha matéria favorita é " + favoriteSubject + ".";
+console.log(favoriteSubjectSentence);
+
+console.log("Bom, foi bom conversar com você. Tenha um ótimo dia!");
+```
