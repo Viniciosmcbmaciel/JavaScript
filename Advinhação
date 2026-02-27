@@ -1,0 +1,24 @@
+let fortune1 = "You will have a great day!";
+let fortune2 = "Something unexpected will make you smile.";
+let fortune3 = "A new opportunity is on the horizon.";
+let fortune4 = "Happiness is coming your way.";
+let fortune5 = "You will achieve your goals soon.";
+
+let randomNumber = Math.floor(Math.random() * 5) + 1;
+
+
+let selectedFortune;
+
+if (randomNumber === 1) {
+    selectedFortune = fortune1;
+} else if (randomNumber === 2) {
+    selectedFortune = fortune2;
+} else if (randomNumber === 3) {
+    selectedFortune = fortune3;
+} else if (randomNumber === 4) {
+    selectedFortune = fortune4;
+} else if (randomNumber === 5) {
+    selectedFortune = fortune5;
+}
+
+console.log(selectedFortune);A
