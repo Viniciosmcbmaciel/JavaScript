@@ -1,0 +1,9 @@
+function booWho(bool) {
+  return typeof bool === "boolean";
+}
+booWho(true); // true
+booWho(false); // true
+booWho([1,2,3]); // false
+booWho(1); // false
+booWho("true"); // false
+booWho(NaN); // false
